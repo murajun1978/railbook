@@ -5,6 +5,7 @@ class HelloController < ApplicationController
 
   def view
     @msg = 'こんにちは、世界！'
+    @name = APP_CONSTANTS['name']
   end
 
   def list

@@ -1,0 +1,5 @@
+COMMON: &COMMON
+  name: "murajun1978"
+
+development:
+  <<: *COMMON
